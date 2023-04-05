@@ -1,0 +1,29 @@
+
+[
+    {
+        "id": 1,
+        "name": "T-shirt rouse red",
+        "price": 30,
+        "imgUrl": "../assets/images/vintage6.jpg"
+
+    },
+    {
+        "id": 2,
+        "name": "T-shirt rouse pink",
+        "price": 29.90,
+        "imgUrl": "../assets/images/vintage7.jpg"
+    },
+    {
+        "id": 3,
+        "name": "T-shirt black",
+        "price": 35,
+        "imgUrl": "../assets/images/vintage8.jpg"
+    },
+    {
+        "id": 4,
+        "name": "T-shirt vintage",
+        "price": 35,
+        "imgUrl": "../assets/images/vintage5.jpg"
+    }
+]
+
