@@ -30,5 +30,5 @@ export default function HomePage(){
             <img src={ImagenVintage10} width="215" height="255"></img>
         </Container>
         
-    )
-}
+    );
+};

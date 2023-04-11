@@ -1,8 +1,4 @@
 import React from "react";
-import { ItemList } from '../components/ItemList';
-/*import { Navbar } from "../components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";*/
-import { ShoppingCart } from "../components/ShoppingCart";
 import { Container } from 'react-bootstrap';
 import { Link } from "react-router-dom";
 
@@ -16,16 +12,7 @@ export default function SalesPage(){
         textDecoration: "none",
     };
 
-    return (
-
-        /*<Router>
-            <Navbar/>
-            <Routes>
-                <Route path='/' element={<ItemList/>}/>
-                <Route path='/cart' element={<ShoppingCart/>}/>
-            </Routes>
-        </Router>*/
-        
+    return (        
        <Container>
         <ul className="nav-list">
         <li>
@@ -45,8 +32,7 @@ export default function SalesPage(){
             </ul>
         </nav>
    
-        <ItemList/>
-        <ShoppingCart/>
+     
         </Container>
         
         

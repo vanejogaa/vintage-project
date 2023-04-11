@@ -1,10 +1,10 @@
 import { Container } from "react-bootstrap";
 
-export default function UserPage(){
+export default function RegisterPage(){
 
     return (
         <Container>
-            <h1>User page</h1>
+            <h1>Register</h1>
         </Container>
     )
 }
