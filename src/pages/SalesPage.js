@@ -1,41 +1,20 @@
 import React from "react";
-import { Container } from 'react-bootstrap';
-import { Link } from "react-router-dom";
+import Itemcard from "../Itemcard";
 
-
-
-export default function SalesPage(){
-
-    const navStyles = {
-        color: "red",
-        listStyle: "none",
-        textDecoration: "none",
-    };
-
+const SalesPage = () => {
     return (   
-       <Container>
-        <ul className="nav-list">
-        <li>
-            Carrito: <span className="cart-count">0</span>
-        </li>
-        </ul>
-           <nav>
-            <Link to={"/"} style={navStyles}>
-                <h2>Store</h2>
-            </Link>
-            <ul className="nav-list">
-                <Link to={"/cart"} style={navStyles}>
-                    <li>
-                        Cart items: <span className="cart-count">0</span>
-                    </li>
-                </Link>
-            </ul>
-        </nav>
-   
+        <div>
+            <h1 className="text-center mt-3">All Items</h1>
+            <section className="py-4 container">
+                <div className="row justify-content-center">
+                    <Itemcard />
+                </div>
+            </section>
+        </div>
+
      
-        </Container>
-        
-        
        
     );
 };
+
+export default SalesPage;

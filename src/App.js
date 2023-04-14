@@ -8,14 +8,11 @@ import RegisterPage from './pages/RegisterPage';
 import Footer from './components/footer/Footer';
 import './App.css';
 
-
 function App() {
   return (
     <div className="App">
-   
   
    <NavigationComponent></NavigationComponent>
-  
    <Routes>
     <Route exact path="/" element={<HomePage/>}></Route>
     <Route exact path="/sales" element={<SalesPage/>}></Route>

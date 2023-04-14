@@ -68,7 +68,6 @@ function GridComplexExample() {
             <option>Guadalajara</option>
             <option>Guipúzcoa</option>
             <option>Huelva</option>
-            
             <option>Huesca</option>
             <option>Jaén</option>
             <option>León</option>
@@ -102,7 +101,7 @@ function GridComplexExample() {
 
         <Form.Group as={Col} controlId="formGridZip">
           <Form.Label>Código postal</Form.Label>
-          <Form.Control />
+          <Form.Control maxlength="5"/>
         </Form.Group>
       </Row>
 
