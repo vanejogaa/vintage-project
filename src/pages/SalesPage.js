@@ -2,6 +2,7 @@ import React from "react";
 import Itemcard from "../Itemcard";
 import data from "../data.js";
 import Cart from "../Cart";
+import { CartProvider } from "react-use-cart";
 
 const SalesPage = () => {
     console.warn(data.productData)
@@ -12,12 +13,20 @@ const SalesPage = () => {
                 <div className="row justify-content-center">
                     {data.productData.map((item, index)=>{
                         return(
-                            <Itemcard img={item.img} title={item.title} desc={item.desc} price={item.price} key={index}/>
+                            <Itemcard 
+                            img={item.img} 
+                            title={item.title} 
+                            desc={item.desc} 
+                            price={item.price} 
+                            item={item} 
+                            key={index}
+                            />
                         )
                     })}
                     
                 </div>
             </section>
+            <CartProvider/>
             <Cart/>
         </div>
 
