@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import PropTypes from 'prop-types';
 import styles from './LoginPage.module.css';
 import { login } from '../api/auth.api';
 
