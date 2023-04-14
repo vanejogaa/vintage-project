@@ -10,18 +10,18 @@ function GridComplexExample() {
     <Form>
     <Form.Group className="mb-3" controlId="formGridAddress1">
         <Form.Label>Nombre</Form.Label>
-        <Form.Control placeholder="1234 Main St" />
+        <Form.Control placeholder="Nombre" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formGridAddress1">
         <Form.Label>Apellidos</Form.Label>
-        <Form.Control placeholder="1234 Main St" />
+        <Form.Control placeholder="Apellidos" />
       </Form.Group>
 
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridEmail">
           <Form.Label>Email</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Control type="email" placeholder="Email" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridPassword">
@@ -32,20 +32,71 @@ function GridComplexExample() {
 
       <Form.Group className="mb-3" controlId="formGridAddress1">
         <Form.Label>Dirección</Form.Label>
-        <Form.Control placeholder="1234 Main St" />
+        <Form.Control placeholder="Dirección" />
       </Form.Group>
 
       <Row className="mb-3">
         <Form.Group as={Col} controlId="formGridCity">
           <Form.Label>Ciudad</Form.Label>
-          <Form.Control />
+          <Form.Control placeholder="Ciudad" />
         </Form.Group>
 
         <Form.Group as={Col} controlId="formGridState">
           <Form.Label>Provincia</Form.Label>
           <Form.Select defaultValue="Choose...">
             <option>Choose...</option>
-            <option>...</option>
+            <option>Álava</option>
+            <option>Albacete</option>
+            <option>Alicante</option>
+            <option>Almería</option>
+            <option>Asturias</option>
+            <option>Ávila</option>
+            <option>Badajoz</option>
+            <option>Baleares</option>
+            <option>Barcelona</option>
+            <option>Burgos</option>
+            <option>Cáceres</option>
+            <option>Cádiz</option>
+            <option>Cantabria</option>
+            <option>Castellón</option>
+            <option>Ciudad Real</option>
+            <option>Córdoba</option>
+            <option>La Coruña</option>
+            <option>Cuenca</option>
+            <option>Gerona</option>
+            <option>Granada</option>
+            <option>Guadalajara</option>
+            <option>Guipúzcoa</option>
+            <option>Huelva</option>
+            
+            <option>Huesca</option>
+            <option>Jaén</option>
+            <option>León</option>
+            <option>Lérida</option>
+            <option>Lugo</option>
+            <option>Madrid</option>
+            <option>Málaga</option>
+            <option>Murcia</option>
+            <option>Navarra</option>
+            <option>Orense</option>
+            <option>Palencia</option>
+            <option>Las Palmas</option>
+            <option>Pontevedra</option>
+            <option>La Rioja</option>
+            <option>Salamanca</option>
+            <option>Segovia</option>
+            <option>Sevilla</option>
+            <option>Soria</option>
+            <option>Tarragona</option>
+            <option>Santa Cruz de Tenerife</option>
+            <option>Teruel</option>
+            <option>Toledo</option>
+            <option>Valencia</option>
+            <option>Sevilla</option>
+            <option>Valladolid</option>
+            <option>Vizcaya</option>
+            <option>Zamora</option>
+            <option>Zaragoza</option>
           </Form.Select>
         </Form.Group>
 
