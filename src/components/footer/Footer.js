@@ -45,11 +45,9 @@ function Footer () {
         <div className="col-md-3 col-sm-6">
             <h4>MÁS PRIORÍZATE</h4>
             <ul className="list-unstyled">
-                <li>Teléfono: (+34) 91 13 92 142</li>
-                <li>Correo electrónico: service@priorizate.com</li>
-                <li>Horario de atención: 
-                <br/>Lunes a viernes de 8:00h a 20:00h, sábados de 8:00h a 18:00h</li>
-                <li>Dirección:</li>
+                <li>L-S de 8:00h a 20:00h</li>
+                <li>(+34) 91 13 92 142</li>
+                <li>service@priorizate.com</li>
                 <li>Av. las Bases, 48, Barcelona (08012)</li>
             </ul>
         </div>
@@ -57,8 +55,7 @@ function Footer () {
         {/*Footer Bottom */}
         <div className="footer-bottom">
             <p className="text-xs-center">
-                &copy;{new Date().getFullYear()} PRIORÍZATE - All Rights 
-                Reserved
+                &copy;{new Date().getFullYear()} PRIORÍZATE. Todos los derechos reservados.
             </p>
         </div>
         </div>  

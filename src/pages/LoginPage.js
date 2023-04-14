@@ -35,6 +35,7 @@ const LoginPage = () => {
             <legend>password</legend>
             <input value={userLoginData.pass} onChange={(e)=>setUserLoginData({...userLoginData, pass: e.target.value})} placeholder='password' type='password'/>
         </fieldset>
+        <br/>
         <button onClick={onLogin}>login</button>
     </form>
   </div>

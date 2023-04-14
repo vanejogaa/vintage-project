@@ -20,6 +20,11 @@ const NavigationComponent = () => {
           <Link className='nav-link' to='/about'>About</Link>
           <Link className='nav-link' to='/login'>Login</Link>
           <Link className='nav-link' to='/register'>Register</Link>
+          <div class="input-group rounded">
+          <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+          <button class="fas fa-search">🔎</button>
+        
+          </div>
         </Nav>
       </Container>
     </Navbar>

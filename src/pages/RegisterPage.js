@@ -1,69 +1,70 @@
-import React, { useState } from 'react';
-import PropTypes from 'prop-types';
-import { login } from '../api/auth.api';
-import styles from './RegisterPage.module.css';
+import { Container } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
 
+function GridComplexExample() {
+  return (
+    <Container>
+    <Form>
+    <Form.Group className="mb-3" controlId="formGridAddress1">
+        <Form.Label>Nombre</Form.Label>
+        <Form.Control placeholder="1234 Main St" />
+      </Form.Group>
 
-const RegisterPage = () => {
+      <Form.Group className="mb-3" controlId="formGridAddress1">
+        <Form.Label>Apellidos</Form.Label>
+        <Form.Control placeholder="1234 Main St" />
+      </Form.Group>
 
-    const [userRegisterData, setUserRegisterData] = useState({email: '', pass: ''})
-    const [registerAlert, setRegisterAlert] = useState('')
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridEmail">
+          <Form.Label>Email</Form.Label>
+          <Form.Control type="email" placeholder="Enter email" />
+        </Form.Group>
 
-    function onRegister(e){
-        e.preventDefault()
-        const user = login(userRegisterData.email,userRegisterData.pass)
+        <Form.Group as={Col} controlId="formGridPassword">
+          <Form.Label>Contraseña</Form.Label>
+          <Form.Control type="password" placeholder="Password" />
+        </Form.Group>
+      </Row>
 
-        if(user){
-            alert('LOGIN CORRECTO')
-            setRegisterAlert('')
-        }
-        else{
-            setUserRegisterData({email: '', pass: ''})
-            setRegisterAlert('Login incorrecto')
-        }
+      <Form.Group className="mb-3" controlId="formGridAddress1">
+        <Form.Label>Dirección</Form.Label>
+        <Form.Control placeholder="1234 Main St" />
+      </Form.Group>
 
-    }
+      <Row className="mb-3">
+        <Form.Group as={Col} controlId="formGridCity">
+          <Form.Label>Ciudad</Form.Label>
+          <Form.Control />
+        </Form.Group>
 
-  return(
-  <div className={styles.RegisterPage}>
-  <span style={{color: 'red'}}>{registerAlert}</span>
-    <form>
-    <fieldset>
-            <legend>Nombre</legend>
-            <input value={userRegisterData.email} onChange={(e)=>setUserRegisterData({...userRegisterData, email: e.target.value})} placeholder='email'/>
-        </fieldset>
-        <fieldset>
-            <legend>Apellidos</legend>
-            <input value={userRegisterData.email} onChange={(e)=>setUserRegisterData({...userRegisterData, email: e.target.value})} placeholder='email'/>
-        </fieldset>
-        <fieldset>
-            <legend>Email</legend>
-            <input value={userRegisterData.email} onChange={(e)=>setUserRegisterData({...userRegisterData, email: e.target.value})} placeholder='email'/>
-        </fieldset>
-        <fieldset>
-            <legend>Teléfono</legend>
-            <input value={userRegisterData.pass} onChange={(e)=>setUserRegisterData({...userRegisterData, pass: e.target.value})} placeholder='password' type='password'/>
-        </fieldset>
-        <button onClick={onRegister}>login</button>
-        <fieldset>
-            <legend>Fecha de nacimiento</legend>
-            <input value={userRegisterData.email} onChange={(e)=>setUserRegisterData({...userRegisterData, email: e.target.value})} placeholder='email'/>
-        </fieldset><fieldset>
-            <legend>Dirección</legend>
-            <input value={userRegisterData.email} onChange={(e)=>setUserRegisterData({...userRegisterData, email: e.target.value})} placeholder='email'/>
-        </fieldset>
-        <fieldset>
-            <legend>Ciudad</legend>
-            <input value={userRegisterData.email} onChange={(e)=>setUserRegisterData({...userRegisterData, email: e.target.value})} placeholder='email'/>
-        </fieldset>
-        <fieldset>
-            <legend>Código postal</legend>
-            <input value={userRegisterData.email} onChange={(e)=>setUserRegisterData({...userRegisterData, email: e.target.value})} placeholder='email'/>
-        </fieldset>
-    </form>
-  </div>
-  )
-};
+        <Form.Group as={Col} controlId="formGridState">
+          <Form.Label>Provincia</Form.Label>
+          <Form.Select defaultValue="Choose...">
+            <option>Choose...</option>
+            <option>...</option>
+          </Form.Select>
+        </Form.Group>
 
-export default RegisterPage;
+        <Form.Group as={Col} controlId="formGridZip">
+          <Form.Label>Código postal</Form.Label>
+          <Form.Control />
+        </Form.Group>
+      </Row>
 
+      <Form.Group className="mb-3" id="formGridCheckbox">
+        <Form.Check type="checkbox" label="He leído y acepto los términos y condiciones de uso" />
+      </Form.Group>
+
+      <Button variant="primary" type="submit">
+        Registro
+      </Button>
+    </Form>
+    </Container>
+  );
+}
+
+export default GridComplexExample;

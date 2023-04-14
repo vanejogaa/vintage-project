@@ -12,7 +12,7 @@ export default function SalesPage(){
         textDecoration: "none",
     };
 
-    return (        
+    return (   
        <Container>
         <ul className="nav-list">
         <li>
