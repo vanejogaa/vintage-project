@@ -1,6 +1,7 @@
 import React from "react";
 import Itemcard from "../Itemcard";
 import data from "../data.js";
+import Cart from "../Cart";
 
 const SalesPage = () => {
     console.warn(data.productData)
@@ -17,6 +18,7 @@ const SalesPage = () => {
                     
                 </div>
             </section>
+            <Cart/>
         </div>
 
      
