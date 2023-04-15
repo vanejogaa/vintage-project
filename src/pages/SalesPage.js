@@ -28,6 +28,14 @@ const SalesPage = () => {
             </section>
             <CartProvider/>
             <Cart/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </div>
 
      

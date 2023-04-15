@@ -24,6 +24,8 @@ const LoginPage = () => {
 
   return(
   <div className={styles.LoginPage}>
+            <br/>
+            <br/>
   <span style={{color: 'red'}}>{loginAlert}</span>
     <form>
         <fieldset>

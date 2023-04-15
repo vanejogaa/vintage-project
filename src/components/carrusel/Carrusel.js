@@ -17,7 +17,7 @@ const items = [
     caption: ''
   },
   {
-    src: 'https://images.pexels.com/photos/6069562/pexels-photo-6069562.jpeg?auto=compress&cs=tinysrgb&w=600',
+    src: 'https://images.pexels.com/photos/6069821/pexels-photo-6069821.jpeg?auto=compress&cs=tinysrgb&w=600',
     altText: 'Imagen2',
     caption: ''
   },

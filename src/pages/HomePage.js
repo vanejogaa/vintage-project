@@ -20,7 +20,12 @@ export default function HomePage(){
         
         <Container>
         <Carrusel/>
-            <h1>Piezas a la última moda</h1>
+            <br/>
+            <br/>
+            <h1 className="text-center">Piezas a la última moda</h1>
+            <br/>
+            <br/>
+            <br/>
             <img src={ImagenVintage01} width="215" height="255"></img>
             <img src={ImagenVintage2} width="350" height="255"></img>
             <img src={ImagenVintage3} width="215" height="255"></img>
@@ -32,6 +37,15 @@ export default function HomePage(){
             <img src={ImagenVintage9} width="215" height="255"></img>
             <img src={ImagenVintage10} width="215" height="255"></img>
             <img src={ImagenVintage03} width="205" height="255"></img>
+
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
         </Container>
         
         

@@ -7,6 +7,9 @@ import Row from 'react-bootstrap/Row';
 function GridComplexExample() {
   return (
     <Container>
+            <br/>
+            <br/>
+            <br/>
     <Form>
     <Form.Group className="mb-3" controlId="formGridAddress1">
         <Form.Label>Nombre</Form.Label>
@@ -113,7 +116,16 @@ function GridComplexExample() {
         Registro
       </Button>
     </Form>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
     </Container>
+    
   );
 }
 
