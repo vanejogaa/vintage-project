@@ -19,7 +19,7 @@ const data = {
         img: img2,
         title: 'Camiseta rosa rosa',
         desc:'',
-        price: 29.90,
+        price: 30,
     },
     {
         id: 3,

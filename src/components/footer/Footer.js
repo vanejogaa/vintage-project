@@ -31,7 +31,7 @@ function Footer () {
         </div>
         {/*Colum 3 */}
         <div className="col-md-3 col-sm-6">
-            <h4>MÁS PRIORÍZATE</h4>
+            <h4>BENEFICIOS</h4>
             <ul className="list-unstyled">
                 <li><a href="/">Móvil y apps de PRIORÍZATE</a></li>
                 <li><a href="/">PRIORÍZATE Marketplace</a></li>

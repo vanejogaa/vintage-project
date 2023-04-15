@@ -9,6 +9,9 @@ import ImagenVintage7 from "../assets/images/vintage7.jpg";
 import ImagenVintage8 from "../assets/images/vintage8.jpg";
 import ImagenVintage9 from "../assets/images/vintage9.jpg";
 import ImagenVintage10 from "../assets/images/vintage10.jpg";
+import ImagenVintage03 from "../assets/images/vintage03.jpg";
+import Carrusel from "../components/carrusel/Carrusel";
+
 
 
 export default function HomePage(){
@@ -16,7 +19,7 @@ export default function HomePage(){
     return (
         
         <Container>
-        
+        <Carrusel/>
             <h1>Piezas a la última moda</h1>
             <img src={ImagenVintage01} width="215" height="255"></img>
             <img src={ImagenVintage2} width="350" height="255"></img>
@@ -28,7 +31,9 @@ export default function HomePage(){
             <img src={ImagenVintage8} width="215" height="255"></img>
             <img src={ImagenVintage9} width="215" height="255"></img>
             <img src={ImagenVintage10} width="215" height="255"></img>
+            <img src={ImagenVintage03} width="205" height="255"></img>
         </Container>
+        
         
     );
 };
