@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import Image1 from "../assets/images/imag1.jpeg";
 import Image2 from "../assets/images/imag2.jpeg";
 import Image3 from "../assets/images/imag3.jpeg";
-import Image4 from "../assets/images/img4.jpeg";
+import Image6 from "../assets/images/image6.jpg";
 
 
 export default function AboutPage(){
@@ -18,9 +18,9 @@ export default function AboutPage(){
         Laura quería que su madre estuviese ocupada para superar el estrés y acelerar la recuperación. 
         La solución vino por pedir un préstamo a su hermano Jesús (los 200€ de los que hablábamos al principio), comprar algunas prendas de ropa y empezar a vender en Facebook.</h4>
         
-        <img src={Image1} width="400" height="600"></img>
-        <img src={Image4} width="400" height="600"></img>
-        <img src={Image3} width="400" height="600"></img>
+        <img class="col-sm-4 alert alert-danger" src={Image1} width="400" height="600"></img>
+        <img class="col-sm-4 alert alert-danger" src={Image6} width="400" height="600"></img>
+        <img class="col-sm-4 alert alert-danger" src={Image3} width="400" height="600"></img>
 
          <br/>
          <br/>
