@@ -39,7 +39,17 @@ const LoginPage = () => {
         <br/>
         <button onClick={onLogin}>login</button>
     </form>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div>
+        <h2>Consigue un 10% de descuento</h2>
+        <h5>Subscríbete a nuestra newsletter y tendrás un 10% de descuento en tu próxima compra, acceso a promociones exclusivas y ¡mucho más!</h5>
+        <p>Quiero dar de baja mi suscripción</p>
+    </div>
   </div>
+  
   )
 };
 

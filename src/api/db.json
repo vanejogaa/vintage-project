@@ -1,0 +1,54 @@
+{
+    "productos": [
+      {
+        "id":1,
+        "name":"Camiseta rosas",
+        "descripción":"Camiseta blanca cinco rosas"
+      },
+      {
+        "id":2,
+        "name":"Camiseta corazón y rosas",
+        "descripción":"Camiseta color blanca con dibujo"
+      },
+      {
+        "id":3,
+        "name":"Camiseta corazón y rosas rojas",
+        "descripción":"Camiseta color blanca con imagen de corazón"
+      },
+      {
+        "id":4,
+        "name":"Camiseta siete corazones",
+        "descripción":"Camiseta blanca con detalle"
+      },
+      {
+        "id":5,
+        "name":"Camiseta tres corazones sombreados",
+        "descripción":"Camiseta blanca con tres corazones"
+      },
+      {
+        "id":6,
+        "name":"Camiseta tres corazones",
+        "descripción":"Camiseta blanca con tres corazones sombreados"
+      },
+      {
+        "id":7,
+        "name":"Camiseta love",
+        "descripción":"Camiseta blanca con serigrafia love"
+      },
+      {
+        "id":8,
+        "name":"Camiseta corazón love",
+        "descripción":"Camiseta blanca con dibujo corazón y serigrafia love"
+      },
+      {
+        "id":9,
+        "name":"Camiseta mariposa",
+        "descripción":"Camiseta blanca con flores y mariposa"
+      },
+      {
+        "id":10,
+        "name":"Camiseta corazón floreado",
+        "descripción":"Camiseta blanca con corazón y flores"
+      }
+    ]
+}

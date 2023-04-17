@@ -14,9 +14,8 @@ export default function AboutPage(){
         <h2 className="text-center">La historia de la tienda PRIORÍZATE</h2>
         <br/>
         <h4>Esta historia comienza con la iniciativa de dos hermanos, Laura y Santiago Garcia, además de Fran Torres (pareja de Laura).  
-        ¿Cómo puedes hacer que tu madre tenga algo en que pensar cuando acaba de superar una enfermedad? Fueron 2 años de durísimo tratamiento y 
-        Laura quería que su madre estuviese ocupada para superar el estrés y acelerar la recuperación. 
-        La solución vino por pedir un préstamo a su hermano Jesús (los 200€ de los que hablábamos al principio), comprar algunas prendas de ropa y empezar a vender en Facebook.</h4>
+        Siempre habían soñado con tener una tienda de ropa, ya que les encantaba la moda desde bien pequeños.
+        Esta historia empezó en una reunión familiar, dónde los tres, expusieron sus ganas y motivación de ser dueños de una tienda de ropa para ofrecer asesoramiento a mujeres de todo tipo de tallajes.</h4>
         
         <img class="col-sm-4 alert alert-danger" src={Image1} width="400" height="600"></img>
         <img class="col-sm-4 alert alert-danger" src={Image6} width="400" height="600"></img>
@@ -54,13 +53,6 @@ export default function AboutPage(){
         <br/>
         <br/>
         <br/>
-
-
-
-
-
-
-
         </Container>
     )
 }

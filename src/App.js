@@ -5,6 +5,7 @@ import SalesPage from './pages/SalesPage';
 import AboutPage from './pages/AboutPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
+import ArticulosPage from './pages/ArticulosPage';
 import Footer from './components/footer/Footer';
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
     <Route exact path="/about" element={<AboutPage/>}></Route>
     <Route exact path="/login" element={<LoginPage/>}></Route>
     <Route exact path="/register" element={<RegisterPage/>}></Route>
+    <Route exact path="/articulos" element={<ArticulosPage/>}></Route>
    </Routes>
   <Footer/>
     </div>
