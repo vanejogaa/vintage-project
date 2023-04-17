@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import CrudForm from "./CrudForm";
 import CrudTable from "./CrudTable";
+import { Container } from "react-bootstrap";
 
 
 const CrudApi = () => {
@@ -31,7 +32,8 @@ const CrudApi = () => {
   };
 
   return (
-    <div>
+    <Container>
+ <div>
       <h2>CRUD App</h2>
       <article className="grid-1-2">
       <CrudForm
@@ -46,7 +48,15 @@ const CrudApi = () => {
       deleteData={deleteData}
       />
       </article>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
     </div>
+    </Container>
+   
   );
 };
 
